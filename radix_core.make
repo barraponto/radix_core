@@ -4,15 +4,20 @@ api = 2
 core = 7.x
 
 ; Radix Theme
-projects[radix][version] = 3.0-alpha2
+projects[radix][subdir] = contrib
+projects[radix][download][type] = git
+projects[radix][download][branch] = 7.x-3.x
 
 ; Radix Modules
-projects[radix_admin][version] = 1.x-dev
-projects[radix_admin][subdir] = radix
-projects[radix_colorizer][version] = 1.x-dev
-projects[radix_colorizer][subdir] = radix
-projects[radix_layouts][version] = 1.x-dev
-projects[radix_layouts][subdir] = radix
+projects[radix_admin][subdir] = contrib
+projects[radix_admin][download][type] = git
+projects[radix_admin][download][branch] = 7.x-1.x
+projects[radix_colorizer][subdir] = contrib
+projects[radix_colorizer][download][type] = git
+projects[radix_colorizer][download][branch] = 7.x-1.x
+projects[radix_layouts][subdir] = contrib
+projects[radix_layouts][download][type] = git
+projects[radix_layouts][download][branch] = 7.x-2.x
 
 ; Utitlities
 projects[colorizer][version] = 1.0-beta3
