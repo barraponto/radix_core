@@ -4,7 +4,6 @@ api = 2
 core = 7.x
 
 ; Radix Theme
-projects[radix][subdir] = contrib
 projects[radix][download][type] = git
 projects[radix][download][branch] = 7.x-3.x
 
